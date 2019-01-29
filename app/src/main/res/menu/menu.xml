@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/bw"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Deep-Night"
+        android:icon="@drawable/charcoal">
+
+    </item>
+
+    <item
+        android:id="@+id/aqua"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Fresh-Aqua"
+        android:icon="@drawable/aqua"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/valentine"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Valentine"
+        android:icon="@drawable/valentine">
+
+    </item>
+
+    <item
+        android:id="@+id/solarized"
+        android:orderInCategory="400"
+        app:showAsAction="never"
+        android:title="Solarized"
+        android:icon="@drawable/solarized">
+
+    </item>
+
+    <item
+        android:id="@+id/zombie"
+        android:orderInCategory="500"
+        app:showAsAction="never"
+        android:title="Zombie"
+        android:icon="@drawable/zombie">
+
+    </item>
+
+    <item
+        android:id="@+id/glow"
+        android:orderInCategory="600"
+        app:showAsAction="never"
+        android:title="neon"
+        android:icon="@drawable/neon">
+    </item>
+
+    <item
+        android:id="@+id/erase"
+        android:orderInCategory="700"
+        app:showAsAction="always"
+        android:title="eraser"
+        android:icon="@drawable/erase2">
+
+    </item>
+
+    <item
+        android:id="@+id/clear"
+        android:orderInCategory="800"
+        app:showAsAction="always"
+        android:title="clear"
+        android:icon="@drawable/new_clear_large">
+
+    </item>
+
+
+
+</menu>

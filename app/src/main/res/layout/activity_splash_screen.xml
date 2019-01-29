@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#1a1e1f">
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/splash"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/slate_splash"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/centreArrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text=">"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/centreArrow"
+        android:text=">"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/centreArrow"
+        android:text=">"
+        android:textColor="#ffffff"
+        android:textSize="30dp"
+        android:fontFamily="serif-monospace"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="START"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:fontFamily="monospace"/>
+
+</RelativeLayout>
